@@ -1,0 +1,27 @@
+body {
+    background-image:url('military-3d-printers-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    color: aliceblue;
+    font-size: 4000%;
+    text-align: center;
+    line-height: 50%;
+}
+#barra {
+    display:flex;
+    flex-wrap: wrap;
+}
+#barra > div {
+    text-align: center;
+    background-color: rgb(214, 213, 135);
+    font-size: 70px;
+    margin: 200px;
+    padding: 200px;
+    width: 500px;
+}
+#barra > div:hover {
+background-color: rgb(190, 97, 97);
+}
