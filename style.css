@@ -25,9 +25,9 @@ h1 {
 #csv {
   height: 70%;
   position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #barra {
@@ -39,15 +39,15 @@ h1 {
   /* display:flex;
   flex-flow:row;  
   justify-content:space-around; */
-  
-  
+
+
 }
 
-#espacio{
+#espacio {
   position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #barra>div {
