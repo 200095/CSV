@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,7 @@
             margin: 0;
             box-sizing: border-box;
             font-size: 20px;
-            font-family:sans-serif
+            font-family:fantasy
         }
 
         body {
@@ -45,12 +46,13 @@
             margin-top: 5%;
             margin-bottom: -5%;
         }
+
         body {
             height: 100%;
             font-family: 'Noto Sans', sans-serif;
             background-color: #ab4493;
         }
-        
+
         .contact_form {
             width: 460px;
             height: auto;
@@ -174,7 +176,7 @@
 
                 <div class="formulario">
                     <form method="post">
-    
+
                         <p>
                             <label for="nombre" class="colocar_nombre">Nombre
                                 <span class="obligatorio">*</span>
@@ -182,7 +184,7 @@
                             <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
                                 placeholder="Escribe tu nombre">
                         </p>
-    
+
                         <p>
                             <label for="email" class="colocar_email">Email
                                 <span class="obligatorio">*</span>
@@ -190,29 +192,30 @@
                             <input type="email" name="introducir_email" id="email" required="obligatorio"
                                 placeholder="Escribe tu Email">
                         </p>
-    
+
                         <p>
                             <label for="telefone" class="colocar_telefono">Teléfono
                             </label>
-                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                            <input type="tel" name="introducir_telefono" id="telefono"
+                                placeholder="Escribe tu teléfono">
                         </p>
-    
+
                         <p>
                             <label for="mensaje" class="colocar_mensaje">Mensaje
                                 <span class="obligatorio">*</span>
                             </label>
-                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
-                                placeholder="Escribe tu comentario..."></textarea>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                                required="obligatorio" placeholder="Escribe tu comentario..."></textarea>
                         </p>
-    
+
                         <button id="tres" type="submit" name="enviar_formulario" id="enviar">
                             <p>Enviar</p>
                         </button>
-    
+
                         <p class="aviso">
                             <span class="obligatorio"> * </span>los campos son obligatorios.
                         </p>
-    
+
                     </form>
                 </div>
             </div>
